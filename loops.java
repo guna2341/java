@@ -1,16 +1,10 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class loops {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        int num = input.nextInt();
-        for (int i = 1;i <= num;i++) {
-            System.out.println(i);
-        }
-        int n = 1;
-        while (n<=num) {
-            System.out.print(n + " ");
-            n++;
-        }
+        int[] arr = {1,2,3,4,5};
+
+        System.out.print(Arrays.toString(arr));
     }
 }
